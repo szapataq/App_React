@@ -17,7 +17,8 @@ const Formulario = () => {
     const enviarData = (e) => {
       e.preventDefault();
       console.log(data.nombre +'' + data.apellido)
-    }
+    };
+
     return (
         <Fragment>
             <form className="row" onSubmit={enviarData}>
