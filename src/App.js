@@ -1,15 +1,18 @@
 import React from 'react';
-// import Contador from './components/contador.jsx';
-// import Jsx from './components/Jsx.jsx';
-import Lista from './components/Lista.jsx';
+// import Contador from './components/contador';
+// import Jsx from './components/Jsx';
+// import Lista from './components/Lista';
+import Formulario from './components/Formulario';
 
 function App() {
   return (
-    <div>
-      <h1>Hola que tal</h1>
+    <div className="container mt-5">
+      <h1>Formulario</h1>
       {/* <Contador/> */}
       {/* <Jsx/> */}
-      <Lista/>
+      {/* <Lista/> */}
+      {/* <Formulario/> */}
+      <Formulario/>
     </div>
   );
 }
